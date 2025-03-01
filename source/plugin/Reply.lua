@@ -48,7 +48,7 @@ data = {
 },
 }
 }
-return send(msg_chat_id,msg_id,'*هآي تع اشب شااي • 😹💔*',"md",false, false, false, false, reply_markup)
+return send(msg_chat_id,msg_id,'*هآيات نورت • 😹💔*',"md",false, false, false, false, reply_markup)
 end
 if text == 'سلام عليكم' or text == 'السلام عليكم' then
 local reply_markup = bot.replyMarkup{
@@ -70,7 +70,7 @@ data = {
 },
 }
 }
-return send(msg_chat_id,msg_id,'*مع الف سلامه يقلبي متجيش تاني 😹💔🎶*',"md",false, false, false, false, reply_markup)
+return send(msg_chat_id,msg_id,'*مع الف سلامه😹💔🎶*',"md",false, false, false, false, reply_markup)
 end
 if text == 'برايفت' or text == 'تع برايفت' then
 local reply_markup = bot.replyMarkup{
@@ -81,7 +81,7 @@ data = {
 },
 }
 }
-return send(msg_chat_id,msg_id,'*خدوني معاكم برايفت والنبي 🥺💔*',"md",false, false, false, false, reply_markup)
+return send(msg_chat_id,msg_id,'*خدوني وياكم برايفت والنبي 🥺💔*',"md",false, false, false, false, reply_markup)
 end
 if text == 'النبي' or text == 'صلي علي النبي' then
 local reply_markup = bot.replyMarkup{
@@ -136,7 +136,7 @@ data = {
 },
 }
 }
-return send(msg_chat_id,msg_id,'*ضحكتك عثل زيكك ينوحيي 🌝❤️*',"md",false, false, false, false, reply_markup)
+return send(msg_chat_id,msg_id,'*ضحكنا وياك؟ 🌝❤️*',"md",false, false, false, false, reply_markup)
 
 end
 if text == '😹' or text == '😹' then
@@ -148,7 +148,7 @@ data = {
 },
 }
 }
-return send(msg_chat_id,msg_id,'*ضحكتك عثل زيكك ينوحيي 🌝❤️*',"md",false, false, false, false, reply_markup)
+return send(msg_chat_id,msg_id,'*ضحكنا وياك؟ 🌝❤️*',"md",false, false, false, false, reply_markup)
 end
 if text == '🤔' or text == '🤔🤔' then
 local reply_markup = bot.replyMarkup{
@@ -159,7 +159,7 @@ data = {
 },
 }
 }
-return send(msg_chat_id,msg_id,'* بتفكر في اي 🤔*',"md",false, false, false, false, reply_markup)
+return send(msg_chat_id,msg_id,'* بشنو جاي تفكر؟🤔*',"md",false, false, false, false, reply_markup)
 end
 if text == '🌚' or text == '🌝' then
 local reply_markup = bot.replyMarkup{
