@@ -894,7 +894,7 @@ end
 function Total_message(Message)  
 local MsgText = ''  
 if tonumber(Message) < 100 then 
-MsgText = 'انت مش بتتفاعل لي '
+MsgText = 'انت ليش متتفاعل؟'
 elseif tonumber(Message) < 200 then 
 MsgText = 'متشد شويه في التفاعل'
 elseif tonumber(Message) < 400 then 
