@@ -4551,7 +4551,7 @@ local TestText = "- معلومات مطور السورس : \n\n- ["..FlterBio(Us
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = 'قناه السورس', url='http://t.me/'..chsource..''},
+{text = 'قناه السورس', url='https://t.me/HELLASUserBot'},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -4561,7 +4561,7 @@ local TestText = "- معلومات مطور السورس : \\nn- ["..FlterBio(Us
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = 'قناه السورس', url='http://t.me/'..chsource..''},
+{text = 'قناه السورس', url='https://t.me/HELLASUserBot'},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -5866,7 +5866,7 @@ if text == 'مصنع السورس' or text == 'المصنع' or text == 'مصن�
   type = 'inline',
   data = {
   {
-  {text = '𝐌𝐚𝐤𝐞𝐫 𝐁𝐫𝐚𝐧𝐝', url = 'https://t.me/RaaGaBboT'}, 
+  {text = '𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬', url = 'https://t.me/Giroubtlebot'}, 
   },
   }
   }
@@ -8745,7 +8745,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -12610,7 +12610,7 @@ Abs = math.random(2,140);
 local Text ='*✯‍︙تم اختيار الشعر لك فقط*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'قناه السورس',url='http://t.me/'..chsource..''}},
+{{text = 'قناه السورس',url='https://t.me/HELLASUserBot'}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/L1BBBL/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -13138,7 +13138,7 @@ Abs = math.random(2,140);
 local Text ='*• تم اختيار الاغنيه لك*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '- قناه السورس .',url='http://t.me/'..chsource..''}},
+{{text = '- قناه السورس .',url='https://t.me/HELLASUserBot'}},
 }
 local MsgId = msg.id/2097152/0.5
 local MSGID = msg.id/2097152/0.5
@@ -13275,7 +13275,7 @@ Abs = math.random(3,205);
 local Text ='*• تم اختيار الاغنيه لك*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '- قناه السورس .',url='http://t.me/'..chsource..''}},
+{{text = '- قناه السورس .',url='https://t.me/HELLASUserBot'}},
 }
 local MsgId = msg.id/2097152/0.5
 local MSGID = 0
@@ -13290,7 +13290,7 @@ local json = JSON.decode(url)
 if url == "null" or #json <= 1 then
 return send(msg.chat_id,msg.id,'• لم استطيع العثور علي نتيجه في google play ')
 end
-local datar = {data = {{text = "قناه السورس" , url = 'http://t.me/'..chsource..''}}}
+local datar = {data = {{text = "قناه السورس" , url = 'https://t.me/HELLASUserBot'}}}
 if #json < 5 then
 for i = 1,#json do
 title = json[i].title
@@ -13398,17 +13398,17 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝙧𝙞𝙣𝙊', url = 't.me/'..devsource},{text = '𝑀𝐸𝑆𝑆𝐼', url = 't.me/'..devsource2},  
+{text = '𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬', url = 't.me/'..devsource},{text = '𝑀𝐸𝑆𝑆𝐼', url = 't.me/'..devsource2},  
 },
 {
-{text = '𝐒𝐎𝐔𝐑𝐂𝐄 𝐂𝐑𝐄𝐀𝐓𝐈𝐕𝐄', url = 'http://t.me/'..chsource..''}, 
+{text = '𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬', url = 'https://t.me/HELLASUserBot'}, 
 },
 {
 },
 }
 }
 bot.sendPhoto(msg.chat_id, msg.id, 'http://t.me/'..chsource..'', [[
-𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐒𝐎𝐔𝐑𝐂𝐄 𝐂𝐑𝐄𝐀𝐓𝐈𝐕𝐄 
+𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬
 ]],"md", true, nil, nil, nil, nil, nil, nil, nil, nil, reply_markup)
 end
 
@@ -13457,7 +13457,7 @@ end
 Redis:del(Fast.."Name:Bot") 
 return send(msg_chat_id,msg_id,"• تم مسح اسم البوت ","md",true)   
 end
-if text == (Redis:get(Fast.."Name:Bot") or "براند") then
+if text == (Redis:get(Fast.."Name:Bot") or "سورس") then
 if Redis:get(Fast.."name bot type : ") == "photo" then
   local photo = bot.getUserProfilePhotos(Fast)
   local UserInfo = bot.getUser(Fast)
@@ -13475,7 +13475,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
   }
   
   if photo.total_count > 0 then
-    local NamesBot = (Redis:get(Fast.."Name:Bot") or "براند")
+    local NamesBot = (Redis:get(Fast.."Name:Bot") or "سورس هيلاس")
     local NameBots = {
 "قلب "..NamesBot ,
 "مين مزعلك بس يعيوني 🥺🌚💋",
@@ -13485,7 +13485,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
 }
   return bot.sendPhoto(msg.chat_id, msg.id, photo.photos[1].sizes[#photo.photos[1].sizes].photo.remote.id,NameBots[math.random(#NameBots)], "md", true, nil, nil, nil, nil, nil, nil, nil, nil, reply_markup )
   else
-    local NamesBot = (Redis:get(Fast.."Name:Bot") or "براند")
+    local NamesBot = (Redis:get(Fast.."Name:Bot") or "سورس")
     local NameBots = {
 "قلب "..NamesBot ,
 "مين مزعلك بس يعيوني 🥺🌚💋",
@@ -13496,7 +13496,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
   return send(msg_chat_id,msg_id,NameBots[math.random(#NameBots)],"md") 
   end 
   end
-      local NamesBot = (Redis:get(Fast.."Name:Bot") or "براند")
+      local NamesBot = (Redis:get(Fast.."Name:Bot") or "سورس")
     local NameBots = {
 "قلب "..NamesBot ,
 "مين مزعلك بس يعيوني 🥺🌚💋",
@@ -13538,7 +13538,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
       }
     return bot.sendPhoto(msg.chat_id, msg.id, photo.photos[1].sizes[#photo.photos[1].sizes].photo.remote.id,BotName[math.random(#BotName)], "md", true, nil, nil, nil, nil, nil, nil, nil, nil, reply_markup )
     else
-      local NamesBot = (Redis:get(Fast.."Name:Bot") or "براند")
+      local NamesBot = (Redis:get(Fast.."Name:Bot") or "سورس")
       local BotName = {
       "اسمي "..NamesBot.." يبن العاميه",
       "يارب يكون موضوع مهم بس",
@@ -13549,7 +13549,7 @@ if Redis:get(Fast.."name bot type : ") == "photo" then
     return send(msg_chat_id,msg_id,BotName[math.random(#BotName)],"md") 
     end 
     end
-          local NamesBot = (Redis:get(Fast.."Name:Bot") or "براند")
+          local NamesBot = (Redis:get(Fast.."Name:Bot") or "سورس")
       local BotName = {
       "اسمي "..NamesBot.." يبن العاميه",
       "يارب يكون موضوع مهم بس",
@@ -14313,7 +14313,7 @@ data = {
 {text = '➕ اضفني لمجموعتك', url = 't.me/'..UserBot..'?startgroup=new'}, 
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -14326,7 +14326,7 @@ data = {
 {text = '➕ اضفني لمجموعتك', url = 't.me/'..UserBot..'?startgroup=new'}, 
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
