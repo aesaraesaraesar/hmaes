@@ -83,9 +83,9 @@ UserBot = Information.UserBot
 Fast = Token:match("(%d+)")
 os.execute('sudo rm -fr .CallBack-Bot/'..Fast)
 bot = Fx.Fastbots.set_config{api_id=2692371,api_hash='fe85fff033dfe0f328aeb02b4f784930',session_name=Fast,token=Token}
-chsource = Redis:get(Fast..'chsource') or "HELLASUserBot"
-devsource = Redis:get(Fast..'devsource') or "F_Q_1"
-devsource2 = Redis:get(Fast..'devsource') or "HELLASUserBot"
+chsource = "HELLASUserBot"
+devsource = "F_Q_1"
+devsource2 = "HELLASUserBot"
 function var(value)  
 print(serpent.block(value, {comment=false}))   
 end 
