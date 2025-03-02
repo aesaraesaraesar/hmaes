@@ -83,9 +83,9 @@ UserBot = Information.UserBot
 Fast = Token:match("(%d+)")
 os.execute('sudo rm -fr .CallBack-Bot/'..Fast)
 bot = Fx.Fastbots.set_config{api_id=2692371,api_hash='fe85fff033dfe0f328aeb02b4f784930',session_name=Fast,token=Token}
-chsource = Redis:get(Fast..'chsource') or "uo_vn"
-devsource = Redis:get(Fast..'devsource') or "lPlJI"
-devsource2 = Redis:get(Fast..'devsource') or "i_bow"
+chsource = Redis:get(Fast..'chsource') or "HELLASUserBot"
+devsource = Redis:get(Fast..'devsource') or "F_Q_1"
+devsource2 = Redis:get(Fast..'devsource') or "HELLASUserBot"
 function var(value)  
 print(serpent.block(value, {comment=false}))   
 end 
@@ -14218,7 +14218,7 @@ lan = "ar"
 end
 local rand = math.random(1,999)
 os.execute("gtts-cli "..intk.." -l '"..lan.."' -o 'intk"..rand..".mp3'")
-bot.sendAudio(msg_chat_id,msg_id,'./intk'..rand..'.mp3',tostring(inoi),"html",nil,tostring(inoi),"@uo_vn")
+bot.sendAudio(msg_chat_id,msg_id,'./intk'..rand..'.mp3',tostring(inoi),"html",nil,tostring(inoi),"@HELLASUserBot")
 sleep(1)
 os.remove("intk"..rand..".mp3")
 end
