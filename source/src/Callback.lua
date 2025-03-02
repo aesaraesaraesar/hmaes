@@ -2100,7 +2100,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -2122,14 +2122,14 @@ if Redis:get(Fast..'Set:array'..IdUser..':'..ChatId) == 'true1' then
 Redis:del(Fast..'Set:array'..IdUser..':'..ChatId)
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'قناه السورس',url='http://t.me/'..chsource..''}},
+{{text = 'قناه السورس',url='https://t.me/HELLASUserBot'}},
 }
 local msg_idd = Msg_id/2097152/0.5
 return https.request("https://api.telegram.org/bot"..Token..'/editMessageText?chat_id='..ChatId..'&text='..URL.escape(" *• تم حفظ الردود بنجاح*")..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 else
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'قناه السورس',url='http://t.me/'..chsource..''}},
+{{text = 'قناه السورس',url='https://t.me/HELLASUserBot'}},
 }
 return https.request("https://api.telegram.org/bot"..Token..'/editMessageText?chat_id='..ChatId..'&text='..URL.escape(" *• تم تنفيذ الامر سابقا*")..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -2293,7 +2293,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -2311,7 +2311,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -2452,7 +2452,7 @@ data = {
 {text = '{ القائمه الرئيسيه }', data = IdUser..'/helpall'},
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -2512,7 +2512,7 @@ data = {
 {text = '{ القائمه الرئيسيه }', data = IdUser..'/helpall'},
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -2601,7 +2601,7 @@ data = {
 {text = '{ القائمه الرئيسيه }', data = IdUser..'/helpall'},
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -2686,7 +2686,7 @@ data = {
 {text = '{ القائمه الرئيسيه }', data = IdUser..'/helpall'},
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -2745,7 +2745,7 @@ data = {
 {text = '{ القائمه الرئيسيه }', data = IdUser..'/helpall'},
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot''}, 
 },
 }
 }
@@ -2789,7 +2789,7 @@ data = {
 {text = '{ القائمه الرئيسيه }', data = IdUser..'/helpall'},
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -2845,7 +2845,7 @@ data = {
 {text = '{ القائمه الرئيسيه }', data = IdUser..'/helpall'},
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -2920,7 +2920,7 @@ data = {
 {text = '{ القفل / الفتح }', data = IdUser..'/NoNextSeting'}, {text = '{ التعطيل / التفعيل }', data = IdUser..'/listallAddorrem'}, 
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -2962,7 +2962,7 @@ data = {
 {text = '{ القفل / الفتح }', data = IdUser..'/NoNextSeting'}, {text = '{ التعطيل / التفعيل }', data = IdUser..'/listallAddorrem'}, 
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
@@ -3083,7 +3083,7 @@ data = {
 {text = '{ القفل / الفتح }', data = IdUser..'/NoNextSeting'}, {text = '{ التعطيل / التفعيل }', data = IdUser..'/listallAddorrem'}, 
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
