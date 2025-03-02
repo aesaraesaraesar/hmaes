@@ -6633,11 +6633,11 @@ if text == '.' or text == 'المصنع' or text == 'مصنع'  then
   type = 'inline',
   data = {
   {
-  {text = 'Maker Brand', url = 'https://t.me/RaaGaBboT'}, 
+  {text = 'Maker Brand', url = 'https://t.me/Giroubtlebot'}, 
   },
   }
   }
-  return send(msg_chat_id,msg_id,"[Maker Brand](https://t.me/RaaGaBboT)","md",true, false, false, true, reply_markup)
+  return send(msg_chat_id,msg_id,"[Maker Brand](https://t.me/Giroubtlebot)","md",true, false, false, true, reply_markup)
   end
 if text == "صورتي" then
 if Redis:get(Fast.."myphoto"..msg.chat_id) then
