@@ -1397,7 +1397,7 @@ return send(msg_chat_id,msg_id,'\n*• هذا الامر يخص { '..Controller_
 end
 local Channel = Redis:get(Fast..'Chat:Channel:Join'..msg_chat_id)
 if Channel then
-return send(msg_chat_id,msg_id,"\n• الاشتراك الاجباري مفعل على : [@"..Channel..']',"md",true)  
+return send(msg_chat_id,msg_id,"\n• الاشتراك الاجباري مفعل على : [@"HELLASUserBot']',"md",true)  
 else
 return send(msg_chat_id,msg_id,"\n• لا توجد قناة في الاشتراك ارسل تغيير الاشتراك الاجباري","md",true)  
 end
@@ -2272,7 +2272,7 @@ data = {
 {text = '{ نعم }', data = senderr..'/Nzlne'},{text = '{ لا }', data = senderr..'/noNzlne'},
 },
 {
-{text = 'قناه السورس', url = 'http://t.me/'..chsource..''}, 
+{text = 'قناه السورس', url = 'https://t.me/HELLASUserBot'}, 
 },
 }
 }
