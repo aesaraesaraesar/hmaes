@@ -10920,7 +10920,7 @@ if Redis:get(Fast..":CV:Name:"..msg.sender_id.user_id..":"..msg.chat_id) then
 return send(msg_chat_id,msg_id,'\n⌯ انت تمتلك سي في باسمك اكتب ( `عرض سي في` ) لتتمكن من رؤيه السي في',"md",true)  
 end
 Redis:set(Fast..":CV:set:"..msg.sender_id.user_id..":"..msg.chat_id, "Name")
-return send(msg_chat_id,msg_id,'\n⌯ مرحبا بك في السجل المدني الخاص بسورس براند\nاكتب اسمك الان :',"md",true)  
+return send(msg_chat_id,msg_id,'\n⌯ مرحبا بك في السجل المدني الخاص بسورس هيلاس د\nاكتب اسمك الا:',"md",true)  
 end
 
 if text and Redis:get(Fast..":CV:set:"..msg.sender_id.user_id..":"..msg.chat_id) == "Name" then 
