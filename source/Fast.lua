@@ -6633,7 +6633,7 @@ if text == '.' or text == 'المصنع' or text == 'مصنع'  then
   type = 'inline',
   data = {
   {
-  {text = 'Maker Brand', url = 'https://t.me/Giroubtlebot'}, 
+  {text = '𝐒𝐨𝐮𝐫𝐜𝐞 𝐇𝐞𝐥𝐥𝐚𝐬', url = 'https://t.me/Giroubtlebot'}, 
   },
   }
   }
